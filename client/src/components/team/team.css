@@ -1,0 +1,24 @@
+.team {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.team__data {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.team__data input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.team__actions {
+    gap: 10px;
+    display: flex;
+}
+
+.team__actions button {
+    padding: 0 4px;
+}

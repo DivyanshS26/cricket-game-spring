@@ -1,0 +1,42 @@
+.result {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.result__teams {
+    display: flex;
+    gap: 1em;
+}
+
+.scoreboard__table__container {
+    width: 100%;
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.table__header {
+    font-weight: 600;
+}
+
+.table__item {
+    flex: 1;
+}
+
+.scoreboard__table {
+    display: flex;
+    padding: 10px 0;
+}
+
+.scoreboard__button__container {
+    display: flex;
+}
+
+.scoreboard__button  {
+    flex: 1;
+}
+
+.scoreboard__button button {
+    display: block;
+    width: 90%;
+}

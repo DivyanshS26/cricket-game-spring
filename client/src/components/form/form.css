@@ -1,0 +1,22 @@
+.form {
+  gap: 6px;
+  width: 30em;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 2em;
+  flex-flow: column;
+}
+
+.form__group {
+  gap: 4px;
+  display: flex;
+  flex-flow: column;
+}
+
+.group__input {
+  padding: 0.5em 0.2em;
+}
+
+.form__group:last-of-type {
+  height: 34px;
+}
